@@ -1,10 +1,12 @@
 import os
 import requests
 
-# Prompt the user to enter the URL
-url = input("Enter the URL to download the latest file: ")
-tar_file = url.split("/")[-1]
-
+# # Prompt the user to enter the URL
+# url = input("Enter the URL to download the latest file: ")
+# tar_file = url.split("/")[-1]
+# Define the URL and file name of the tar file
+url = "https://github.com/prometheus/snmp_exporter/releases/download/v0.22.0/snmp_exporter-0.22.0.linux-amd64.tar.gz"
+tar_file = "snmp_exporter-0.22.0.linux-amd64.tar.gz"
 # Define the path for extracting the tar file
 extract_path = "./snmp_exporter"
 
