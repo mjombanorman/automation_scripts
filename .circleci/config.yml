@@ -15,4 +15,4 @@ jobs:
 
       - run:
           name: Execute Python script
-          command: python3 snmp_exporter_setup.py
+          command: python3 snmp_exporter.py
